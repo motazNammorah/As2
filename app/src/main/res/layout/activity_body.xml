@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".headbody">
+
+
+
+
+    <ImageView
+
+        android:id="@+id/arms_part_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_weight="1"
+        android:src="@drawable/headbody"
+        tools:ignore="DuplicateIds"
+
+        />
+
+    <TextView
+        android:id="@+id/arms_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is this body part?"
+        android:textColor="@color/black"/>
+
+
+    <RadioGroup
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/hand1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="lll"
+            android:text="head" />
+
+        <RadioButton
+            android:id="@+id/arm1"
+            android:onClick="l2clk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="arm" />
+
+        <RadioButton
+            android:id="@+id/leg1"
+            android:onClick="clk3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="leg" />
+
+
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" GOOD LUCK :) "
+        android:gravity="center"
+        android:layout_marginVertical="10dp"
+        android:textColor="#0000FF"
+        android:textSize="24sp"
+        />
+    />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="give me the result please :)"
+        android:layout_gravity="center"
+        android:onClick="checkResult"
+        android:layout_marginTop="8dp"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/check"
+        android:textColor="#0000FF"
+        android:textSize="24sp"
+        android:visibility="gone"
+
+        />
+</LinearLayout>

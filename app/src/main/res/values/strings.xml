@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ASSTwo</string>
+    <string-array name="subject">
+        <item>headbody</item>
+        <item>upperbody</item>
+        <item>lowerbody</item>
+
+    </string-array>
+
+    <string-array name="oparation">
+        <item>headbody</item>
+        <item>upperbody</item>
+        <item>lowerbody</item>
+    </string-array>
+
+</resources>
